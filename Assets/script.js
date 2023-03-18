@@ -1,4 +1,4 @@
-let timeLeft = 60;
+let timeLeft = 120;
 
 const countdown = setInterval(function() {
   timeLeft--;
@@ -6,6 +6,6 @@ const countdown = setInterval(function() {
 
   if (timeLeft <= 0) {
     clearInterval(countdown);
-    document.getElementById("timer").innerHTML = "Time's up!";
+    document.getElementById("timer").innerHTML = "Time Expired";
   }
 }, 1000);

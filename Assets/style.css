@@ -1,29 +1,28 @@
+
 body {
 	font-family: Arial, sans-serif;
-	background-color: #f0f0f0;
+	background-color: #ffffff;
     color: blue;
 }
-title {
-    color: #0095ff;
-}
+
 .quiz-container {
-	width: 500px;
+	width: 400px;
 	margin: 0 auto;
 	padding: 20px;
 	background-color: #fff;
-	box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
 }
 
 h1 {
 	text-align: center;
 	color: #333;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 hr {
 	border: none;
-	border-bottom: 1px solid #ccc;
-	margin-bottom: 20px;
+	border-bottom: 1px solid #000000;
+	margin-bottom: 10px;
 }
 
 ul {
@@ -33,7 +32,7 @@ ul {
 }
 
 li {
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 }
 
 label {
